@@ -17,7 +17,7 @@ public class Server_RPC {
 
          System.out.println("Iniciando RPC Server...");
          //Declaracion del servidor y la clase Lugares donde se encuentran los metodos
-         WebServer server = new WebServer(123);
+         WebServer server = new WebServer(80);
          frameMatriz lg = new frameMatriz();
          server.addHandler("server", lg);
          //Inicio de servidor
