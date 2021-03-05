@@ -24,7 +24,7 @@ import org.apache.xmlrpc.XmlRpcException;
  */
 public class Cliente {
     public static void main(String[] args) throws MalformedURLException, XmlRpcException, IOException, InterruptedException {
-        XmlRpcClient cliente = new XmlRpcClient("http://192.168.1.66:5005/");
+        XmlRpcClient cliente = new XmlRpcClient("http://localhost:80/");
         Vector<String> params = new Vector<String>();
         Scanner sc = new Scanner(System.in);
         System.out.println("Escribe un identificador para el cliente");
