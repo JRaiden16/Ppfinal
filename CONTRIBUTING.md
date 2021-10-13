@@ -1,18 +1,18 @@
 
 
-#CONTRIBUTION GUIDELINES
+# CONTRIBUTION GUIDELINES
 
 Contribution is welcome, encouraged, and appreciated. 
 
-##Before contributing
+## Before contributing
 
-##Contributing
+## Contributing
 Maintainer/reviewer
 
-##Contributor
+## Contributor
 
-##Making Changes
+## Making Changes
 Code
 Please use the directory structure of the repository.
 
-##Test
+## Test
