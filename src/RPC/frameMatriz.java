@@ -59,7 +59,7 @@ public class frameMatriz extends javax.swing.JFrame {
 		setSize(new java.awt.Dimension(800, 800));
 
 		btgenera.setText("Generar!");
-			btgenera.setVisible(false);
+			btgenera.setVisible(true);
 			btgenera.doClick();
 		
 		btgenera.addActionListener(new ActionListener() {
@@ -90,8 +90,8 @@ public class frameMatriz extends javax.swing.JFrame {
 														javax.swing.GroupLayout.PREFERRED_SIZE)
 												.addComponent(btgenera))));
 
-		pnlTablero.setBackground(new java.awt.Color(255, 250, 250));
-		pnlTablero.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
+		pnlTablero.setBackground(new java.awt.Color(250, 250, 250));
+		pnlTablero.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(200, 200, 200)));
 		pnlTablero.setToolTipText("");
 
 		javax.swing.GroupLayout pnlTableroLayout = new javax.swing.GroupLayout(pnlTablero);
