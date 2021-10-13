@@ -24,8 +24,8 @@ public class frameMatriz extends javax.swing.JFrame {
 	// Variables globales del formulario
 	JButton[][] botones;
 
-	int tamanioX = 0;
-	int tamanioY = 0;
+	int tamanioX = 1;
+	int tamanioY = 1;
 
 	Random rand = new Random();
 
@@ -52,14 +52,15 @@ public class frameMatriz extends javax.swing.JFrame {
 		pnlTablero = new javax.swing.JPanel();
 
 		setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-		setTitle("Matríz de Colores");
+		setTitle("|Matríz de Colores|");
 		setName("frameMatriz");
 		setResizable(false);
 		setSize(new java.awt.Dimension(800, 800));
 
-		btgenera.setText("GENERAR");
-		//btgenera.setVisible(false);
-		//btgenera.doClick();
+		btgenera.setText("Generar!");
+			btgenera.setVisible(false);
+			btgenera.doClick();
+		
 		btgenera.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent evt) {
