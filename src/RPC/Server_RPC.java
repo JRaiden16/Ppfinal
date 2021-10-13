@@ -15,16 +15,16 @@ public class Server_RPC {
    public void Iniciar(){
       try {
 
-         System.out.println("Iniciando RPC Server...");
+         System.out.println("Iniciando Servidor RPC...");
          //Declaracion del servidor y la clase Lugares donde se encuentran los metodos
-         WebServer server = new WebServer(8080);
+         WebServer server = new WebServer(200);
          frameMatriz lg = new frameMatriz();
          server.addHandler("server", lg);
          //Inicio de servidor
          server.start();
          
       } catch (Exception exception){
-         System.err.println("JavaServer: " + exception);
+         System.err.println("JavaServer Error: " + exception);
       }
     }
 }
